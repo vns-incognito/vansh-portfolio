@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+      <div class="logo">Vansh-Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <head>
+      <title>Background Image Example</title>
+      <style>
+          body {
+              background-image: url('./assets/TEST 2.avif');
+              background-size: cover; /* Adjust the sizing of the background image */
+              background-repeat: no-repeat; /* Prevent image from repeating */
+              background-attachment: fixed; /* Keep background image fixed while scrolling */
+          }
+          
+          /* Additional CSS styling for content */
+          .content {
+              padding: 50px;
+              color: white;
+              text-align: center;
+          }
+      </style>
+  </head>
+  <body> -->
+      <!-- <div class="content">
+          <h1></h1>
+          <p></p>
+      </div>
+  </body> -->
+    <!-- <nav id="hamburger-nav">
+      <div class="logo">Vansh Arora</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav> -->
+    <section id="profile">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/vansh.png" alt="Vansh Arora profile picture" />
+      </div> -->
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vansh Arora</h1>
+        <p class="section__text__p2">Passionate Tech Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download Resume
+          </button>
+          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button> -->
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vansh-arora-14075a1b4/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/vns-incognito'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about.avif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Interests</h3>
+              <p>Data Science,AI/ML<br />Cloud Computing</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B TECH CSE (2021-2025)<br />XII CBSE (2021)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a self-driven and motivated software engineering student with a passion for Data Science, AI/ML and Cloud Computing, I am eager to explore opportunities in a dynamic and challenging environment. My enthusiasm and optimism fuel my desire to learn and excel. I am actively seeking a stimulating atmosphere that fosters growth and empowers me to acquire valuable skills. I am dedicated to contributing my best efforts to advance both my personal development and the company's success.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Services</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/ml.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine learning</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ds.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Science</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pydj.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python Development</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/cloud.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cloud Computing</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/uiux.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX Designing</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/iot.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IOT (Arduino)</h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming & Version control</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/C_Logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C language      </h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/c++.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++       </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git      </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      /> -->
+    </section>
+    <section id="experience">
+      <!-- <div class="pic-container">
+        <img src="./assets/skills.png" alt="Vansh Arora profile picture" />
+      </div> -->
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">PYTHON DEVELOPER INTERN : KONSTENT PVT LTD</h2>
+            <h2 class="experience-sub-title">Aug 2023 - Present</h2>
+            <p class="section__text__p1">•	Collaborated with cross-functional teams to define data requirements and ensure alignment with business objectives.<br/>
+              •	Preprocessed and cleaned data, implemented feature engineering techniques, and developed predictive models using scikit-learn.<br/>...
+              </p>
+
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/vansh arora.pdf')"
+                >
+                  View Offer letter
+                </button>
+            <!-- <div class="article-container"> -->
+              <!-- <article> -->
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <!-- <div> -->
+                  <!-- <h3>Aug 2023 - Present</h3> -->
+                  <!-- <p>•	Collaborated with cross-functional teams to define data requirements and ensure alignment with business objectives.<br/>
+                    •	Preprocessed and cleaned data, implemented feature engineering techniques, and developed predictive models using scikit-learn.
+                    </p>
+                </div>
+              </article> -->
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div> -->
+              <!-- </article> -->
+            </div>
+          </div>
+          <!-- <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/spam.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Spam URL Detector</h2>
+            <p class="section__text__p1">•	ML Model which detect spam links on the basis of input given by the user.<br/><br/>
+              •	Used algorithms like Naïve bayes, random forest, SVM etc. , confusion matrix and other functions of python libraries.<br/>...
+              </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vns-incognito/phishing-model'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/movies.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Movies Recommender</h2>
+            <p class="section__text__p1">•	ML Model which can suggest similar movies on the basis of input given by the user.<br/><br/>
+              •	Used vectorization , cosine similarities function and other functions of python libraries.<br/>
+              <br/>...
+              </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vns-incognito/movies-recommender'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/locateit.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Locate It</h2>
+            <p class="section__text__p1">•	IOT based project which fetches live location and other data of vehicles from hardware and displays it over app.<br/>
+              •	Role – Hardware coding, interfacing hardware and firebase and things speak server and designing UI for app.
+              <br/>...
+              </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vns-incognito/Locate-it'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:aroravansh2182003@gmail.com" class="b">aroravansh2182003@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/vansh-arora-14075a1b4/" class="b">LinkedIn-Vansh Arora</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/call.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="tel:+91 9664483683" class="b">+91 9664483683</a></p>
+          </div>
+        </div>
+      
+        <div class="contact-form-container">
+          <form id="contactForm" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"placeholder="Enter your mail" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message"required></textarea>
+      
+            <button type="submit" class="btn btn-color-2">Submit</button>
+          </form>
+          <script src="script.js"></script>
+        </div>
+      </section>
+      
+    <!-- </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon "
+          />
+          <p><a href="mailto:aroravansh2182003@gmail.com"class="b">aroravansh2182003@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vansh-arora-14075a1b4/"class="b">LinkedIn-Vansh Arora</a></p>
+          <div class="contact-info-container">
+            <img
+              src="./assets/call.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="tel:+91 9664483683" class="b">+91 9664483683</a></p>
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <form id="contactForm" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <button type="submit" class="btn btn-color-2">Submit</button>
+        </form>
+      </div> -->
+      
+      <!-- <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1> -->
+      <!-- <div class="contact-info-lower-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon "
+          />
+          <p><a href="mailto:aroravansh2182003@gmail.com"class="b">aroravansh2182003@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vansh-arora-14075a1b4/"class="b">LinkedIn-Vansh Arora</a></p>
+          <div class="contact-info-container">
+            <img
+              src="./assets/call.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="tel:+91 9664483683" class="b">+91 9664483683</a></p>
+        </div>
+      </div> -->
+
+  <!-- <section id="contact-form">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-form-container">
+    <form id="contactForm" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" class="btn btn-color-2">Submit</button>
+    </form>
+  </div>
+</section> -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <!-- <img
+              src="./assets/address.png"
+              alt="LinkedIn icon"
+              class="icon add-icon"
+            /> -->
+            <li><a href="https://goo.gl/maps/98KvQN87xNaNkx2HA" class="c">Github</a></li>
+            <!-- <img
+              src="./assets/instagram png.webp"
+              alt="LinkedIn icon"
+              class="icon insta-icon"
+            /> -->
+            <li><a href="https://instagram.com/vansh._._.arora?igshid=MzNlNGNkZWQ4Mg=="class="c">Instagram</a></li>
+            <!-- <img
+              src="./assets/facebook.png"
+              alt="LinkedIn icon"
+              class="icon fb-icon"
+            /> -->
+            <li><a href="https://www.facebook.com/profile.php?id=100054266444677&mibextid=ZbWKwL"class="c">Facebook</a></li>
+            <!-- <img
+              src="./assets/twitter.png"
+              alt="LinkedIn icon"
+              class="icon twit-icon"
+            /> -->
+            <li><a href="https://twitter.com/arovns?t=_y6S4lpN35u141m39DsfQg&s=09"class="c">Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Vansh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
