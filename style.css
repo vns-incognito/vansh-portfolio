@@ -194,9 +194,9 @@ section {
     padding-top: 0%;
     padding-bottom: 0%;
     background-image: url(./assets/test.jpeg);
-	  background-size: cover;
-	  background-position: center;
-	  position: relative;
+    background-size: cover;
+    background-position: center;
+    position: relative;
     z-index: 1;
   
 }
