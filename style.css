@@ -453,6 +453,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  position: relative;
 }
 /* .contact-form-container {
   height: 300px;
@@ -626,6 +627,8 @@ footer {
   background-position: center;
   height: 16vh;
   margin: 0px;
+  padding-top: 10px;
+  position: relative;
 }
 
 footer p {
