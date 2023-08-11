@@ -454,6 +454,7 @@ article .icon {
   flex-direction: column;
   height: 100vh;
   position: relative;
+  padding-top: 20px;
 }
 /* .contact-form-container {
   height: 300px;
@@ -505,8 +506,8 @@ article .icon {
   background-size: contain;
   background-position: bottom;
   position: relative;
-  
-  
+  padding: 10px;
+  position: relative;
   border-radius: 5px;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   margin-top: 40px;
@@ -539,6 +540,8 @@ article .icon {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  padding-bottom: 10px;
+  position: relative;
 }
 
 /* Responsive Styles */
