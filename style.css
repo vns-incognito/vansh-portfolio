@@ -232,15 +232,16 @@ section {
     
     padding-bottom: 0%;
     background-image: url(./assets/test.jpeg);
-	  background-size: cover;
-	  background-position: center;
-	  position: relative;
+    background-size: cover;
+    background-position: center;
+    position: relative;
     padding: 20px;
     z-index: 1;
   
 }
 
 #profile {
+  top: 10vh;
   display: flex;
   text-align: center;
   justify-content: center;
