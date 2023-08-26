@@ -315,6 +315,17 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+   #profile {
+    
+    padding-bottom: 0%;
+    background-image: url(./assets/test1.jpeg);
+	  background-size: cover;
+	  background-position: center;
+	  position: relative;
+    padding: 20px;
+    z-index: 1;
+  
+  }
   .title {
     font-size: auto;
     
