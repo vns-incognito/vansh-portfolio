@@ -79,7 +79,7 @@ nav1{
 }
 
 .b {
-  padding : 4vh;
+  padding-right : 3vh;
   color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: rgb(0, 0, 0);
@@ -321,8 +321,9 @@ section {
 
 @media screen and (max-width: 768px) {
  .b {
-  padding : 4vh;
+  padding : 0vh;
   }
+  
    #profile {
     top :0vh;
     padding-bottom: 0%;
